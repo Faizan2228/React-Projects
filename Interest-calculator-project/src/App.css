@@ -87,3 +87,10 @@ body {
     border: 1px solid blueviolet;
     background-color: #fff;
 }
+
+@media screen and (max-width:410px) {
+    .container{
+        width: 300px;
+        margin: 20px 0;
+    }
+}
