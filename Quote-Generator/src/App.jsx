@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import './App.css'
-import { IntCalc } from './Components/IntCalc'
+import { QuoteGen } from './Components/QuoteGen'
+
 function App() {
- 
+
   return (
     <div>
-      <IntCalc />
+      <QuoteGen />
     </div>
   )
 }
