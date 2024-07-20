@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import '../App.css'
 
 export const QuoteGen = () => {
 
@@ -31,7 +32,17 @@ export const QuoteGen = () => {
             'The cheapest, fastest, and most reliable components are those that aren’t there. (Gordon Bell)',
             'The best performance improvement is the transition from the nonworking state to the working state. (J. Osterhout)',
             'The trouble with programmers is that you can never tell what a programmer is doing until it’s too late. (Seymour Cray)',
-            'Don’t worry if it doesn’t work right. If everything did, you’d be out of a job. (Mosher’s Law of Software Engineering)'
+            'Don’t worry if it doesn’t work right. If everything did, you’d be out of a job. (Mosher’s Law of Software Engineering)',
+            "\"Code is like humor. When you have to explain it, it’s bad.\" (Cory House)",
+            "\"First, solve the problem. Then, write the code.\" (John Johnson)",
+            "\"Experience is the name everyone gives to their mistakes.\" (Oscar Wilde)",
+            "\"In order to be irreplaceable, one must always be different.\" (Coco Chanel)",
+            "\"Java is to JavaScript what car is to Carpet.\" (Chris Heilmann)",
+            "\"Simplicity is the soul of efficiency.\" (Austin Freeman)",
+            "\"Before software can be reusable it first has to be usable.\" (Ralph Johnson)",
+            "\"Make it work, make it right, make it fast.\" (Kent Beck)",
+            "\"Programs must be written for people to read, and only incidentally for machines to execute.\" (Harold Abelson)",
+            "\"Any fool can write code that a computer can understand. Good programmers write code that humans can understand.\" (Martin Fowler)"
  
  ];
 
@@ -49,15 +60,15 @@ export const QuoteGen = () => {
     },[])    
 
  return (
-    <div>
+    <div className='container'>
         <h1>Quote Of the day</h1>
 
         <div className='Quote-box'>
             <p>{quote} </p>
         </div>
         <div className='btn-box'>
-            <button>New Quote</button>
-            <button>Tweet</button>
+            <button onClick={getQuotes} className='new-btn'>Quote</button>
+            <button className='post-btn'><img src="https://th.bing.com/th/id/OIP.t1fyvKgDnUoIiC049MG48AHaHa?pid=ImgDet&rs=1" alt="" /> Tweet</button>
         </div>
     </div>
   )
