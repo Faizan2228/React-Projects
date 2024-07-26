@@ -52,7 +52,7 @@ export const Form = () => {
   return (
     <div>
         
-        <h1>Login Form</h1>
+        <h1>Login Form Validation</h1>
 
         <form onSubmit={handeSubmit} className='form-box'>
             <pre>{JSON.stringify(formValue, undefined,2)} </pre>
