@@ -29,7 +29,7 @@ export const ImageSlider = () => {
 
             current === index && (
                 <div className='image-box' key={imgs}>
-                    <img src={imgs} alt="Images" width={550} height={400} />
+                    <img src={imgs} alt="Images" width={640} height={400} />
                 </div>
             )
 

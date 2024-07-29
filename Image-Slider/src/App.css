@@ -7,9 +7,9 @@
 
 
 .slide-container{
-  width: 570px;
-  border: 1px solid yellow;
-  border-radius: 30px;
+  width: 670px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.9);
+  background-color: none;
   position: relative;
   display: flex;
   align-items: center;
@@ -18,9 +18,27 @@
 
 .prev-btn{
   position: absolute;
-  left: -10px;
+  left: -40px;
+  color: blue;
 }
 .forward-btn{
   position: absolute;
-  right: -10px;
+  right: -60px;
+  color: blue;
+ 
+}
+
+
+.image-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+
+.image-box img{
+  z-index: -1;
+  width: 100%;
 }
