@@ -20,7 +20,7 @@ export const Notes = () => {
     return (
         <div>
             <div>
-                <h1>Notes Project</h1>
+                <h1>Notes App</h1>
                 <button onClick={createNote}>Create Note</button>
             </div>
             
