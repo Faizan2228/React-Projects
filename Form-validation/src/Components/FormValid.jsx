@@ -86,6 +86,7 @@ export const FormValid = () => {
                     <br /><br />
 
                 <button type='submit'>Submit</button>
+                <button>reset</button>
             </form>
         </div>
     )
