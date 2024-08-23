@@ -81,7 +81,6 @@ export const FormValid = () => {
                 <label>Female</label>
                 <input type="radio" name='gender' value='Female' onChange={(e) => setData({...data, gender: e.target.value})} />
 
-                <label>country</label>
 
                     <br /><br />
 
