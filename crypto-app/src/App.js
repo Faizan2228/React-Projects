@@ -4,8 +4,7 @@ import Axios from "axios";
 import { useEffect, useState } from "react";
 
 function App() {
-    // Setting up the initial states using
-    // react hook 'useState'
+    
     const [search, setSearch] = useState("");
     const [crypto, setCrypto] = useState([]);
 
