@@ -33,7 +33,7 @@ function App() {
 
   return (
       <div className="emoji-app">
-          <h1>GeeksforGeeks Emoji Application</h1>
+          <h1>Emoji Application</h1>
           {choosenEmoji && (
               <div className="selected-emoji">
                   <p>Selected Emoji:</p>
